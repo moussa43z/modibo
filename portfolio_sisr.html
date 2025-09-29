@@ -48,6 +48,11 @@
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
     footer {
       background: #1a73e8;
       color: white;
@@ -90,28 +95,32 @@
 
   <section id="projects">
     <h2>Projets</h2>
-   <div class="card">
-  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Stage Nat System">
-  <h3><stage-nat-system class="pdf"></stage-nat-system></h3>
-  <p>Présentation détaillée de mon stage, des missions réalisées et des compétences acquises en Shell, Active Directory et gestion des tickets informatiques.</p>
-  
-  <!-- Visionneuse PDF -->
-  <iframe src="stage-nat-system.pdf"></iframe>
-  
-  <!-- Bouton de téléchargement -->
-  <p><a href="stage-nat-system.pdf" target="_blank">📥 Télécharger le document</a></p>
-</div>
-</div>
+
+    <!-- Projet Stage Nat System -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Stage Nat System">
+      <h3>Mon expérience de stage chez Nat System</h3>
+      <p>Présentation détaillée de mon stage, des missions réalisées et des compétences acquises en Shell, Active Directory et gestion des tickets informatiques.</p>
+      <iframe src="stage-nat-system.pdf"></iframe>
+      <p><a href="stage-nat-system.pdf" target="_blank">📥 Télécharger le document</a></p>
+    </div>
 
     <div class="projects">
+      <!-- Projet Active Directory -->
       <div class="card">
         <h3>Projet 1 : Mise en place d’un Active Directory</h3>
         <p>Installation et configuration d’un domaine Windows Server 2019 avec gestion des utilisateurs et des stratégies de groupe.</p>
+        <img src="active-directory.png" alt="Capture d’écran Active Directory">
+        <p><a href="active-directory.png" target="_blank">🔍 Voir la capture en grand</a></p>
       </div>
+
+      <!-- Projet Réseau -->
       <div class="card">
         <h3>Projet 2 : Infrastructure Réseau</h3>
         <p>Configuration de routeurs et switches Cisco (VLAN, routage statique, DHCP, sécurité réseau).</p>
       </div>
+
+      <!-- Projet Linux -->
       <div class="card">
         <h3>Projet 3 : Serveur Linux</h3>
         <p>Installation d’un serveur web Apache avec base MySQL et sécurisation via pare-feu et SSL.</p>
